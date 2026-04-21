@@ -1,0 +1,39 @@
+studenti = 25
+print(studenti)
+
+studenti1 = 3
+tot_studenti = studenti + studenti1
+print(tot_studenti)
+
+a = "Epicode"
+print(a)
+
+x = 10
+print((x + 2) * 3)
+
+str1 = "Windows"
+str2 = "Excel"
+str3 = "Powerpoint"
+str4 = "Word"
+print(len(str1))
+print(len(str2))
+print(len(str3))
+print(len(str4))
+
+seconds_in_minute = 60
+minutes_in_hour = 60
+hours_in_day = 24
+days_in_year = 365
+print(seconds_in_minute * minutes_in_hour * hours_in_day * days_in_year)
+
+my_string = "I am studying Python"
+print(my_string.upper())
+print(my_string.lower())
+my_string.replace("Python", "a lot")
+my_string.strip()	# non cambia nulla, perché la funzione .strip() elimina solo gli spazi all'inizio e alla fine della stringa, se non specificato altro
+my_string.split()
+
+studenti = ["Alex", "Bob", "Cindy", "Dan", "Emma", "Faith", "Grace", "Henry"]
+corsi = ["Cybersecurity", "Data Analist", "Backend", "Frontend", "Data Analyst", "Backend"]
+corsi.append("Frontend")
+corsi.append("Cybersecurity")
