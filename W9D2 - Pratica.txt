@@ -1,0 +1,119 @@
+# pag 2
+nome_scuola = "Epicode"
+i = 0
+while i < len(nome_scuola):
+    print(nome_scuola[i])
+    i = i + 1
+
+#-----------------------------
+
+# pag 3
+i = 0
+while i <= 20:
+    print(i)
+    i = i + 1
+
+#-----------------------------
+
+# pag 4
+i = 0
+while i < 10:
+    print(2**i)
+    i = i + 1
+
+#-----------------------------
+
+# pag 5
+N = int(input("Inserisci potenza"))
+i = 0
+while i < N:
+    print(2**i)
+    i = i + 1
+
+#-----------------------------
+
+# pag 6
+i = 0
+while 2**i < 25000:
+    print(2**i)
+    i = i + 1
+
+#-----------------------------
+
+# pag 7
+stringa = input("Inserisci max 6 caratteri")
+print(f"{stringa[:3]}...{stringa[3:]}")
+
+#-----------------------------
+
+# pag 8
+
+
+#-----------------------------
+
+# pag 9
+nome_scuola = "Epicode"
+for i in nome_scuola:
+    print(i)
+
+#-----------------------------
+
+# pag 10
+for i in range (10):
+    print(2**i)
+
+#-----------------------------
+
+# pag 11
+n = int(input("Inserisci potenza"))
+k = int(input("Inserisci numero"))
+i = 0
+potenze = []
+
+while i < n:
+    potenze.append(k**i)
+    i = i + 1
+print(potenze)
+
+i = 0
+
+for i in range(n):
+    potenze.append(k**i)
+    i = i + 1
+print(potenze)
+
+#-----------------------------
+
+# pag 12
+guadagni = [100, 90, 70, 40, 50, 80, 90, 120, 80, 20, 50, 50]
+somma = 0
+
+for vendita in guadagni:
+    somma = somma + vendita
+
+media = somma / len(guadagni)
+print(media)
+
+#-----------------------------
+
+# pag 13
+parole = ["Albergo", "Sedia", "Borgo", "Petalo", "Eremo", "Belvedere", "Semestre", "Esteta", "Sosta", "Orpello", "Abete", "Orologio", "Cesta", "Ermellino"]
+
+for parola in parole:
+    parola = parola.lower()
+    conteggio = parola.count("e")
+    print(parola, ":", conteggio)
+
+#-----------------------------
+
+# pag 14
+
+#-----------------------------
+
+# pag 15
+
+#-----------------------------
+
+# pag 16
+
+
